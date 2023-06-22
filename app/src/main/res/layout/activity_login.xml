@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/txtSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:fontFamily="@font/magazinegrotesque_bold"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="@color/gray"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/eTxtUsernameSI"
+        android:layout_width="300dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_edit"
+        android:ems="10"
+        android:fontFamily="@font/inter_regular"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="15dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="#555555" />
+
+    <EditText
+        android:id="@+id/eTxtPasswordSI"
+        android:layout_width="300dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_edit"
+        android:ems="10"
+        android:fontFamily="@font/inter_regular"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginBottom="15dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="#555555" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="300dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/magazinegrotesque_bold"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.229" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

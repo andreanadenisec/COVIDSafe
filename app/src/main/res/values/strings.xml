@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Final</string>
+
+    <string name="already">Already have an account?</string>
+    <string name="login">&#160;&#160;Login</string>
+    <string name="forward"><![CDATA[>]]></string>
+    <string name="back"><![CDATA[<]]></string>
+
+</resources>

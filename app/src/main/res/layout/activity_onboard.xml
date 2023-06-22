@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/onboarding"
+    android:orientation="vertical"
+    tools:context=".Onboard">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vpViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="537dp">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/lytDot"
+        android:layout_width="251dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:foregroundGravity="center_vertical|center|center_horizontal"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnGetStarted"
+            android:layout_width="287dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_button"
+            android:text="Next"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="72dp"
+            android:layout_height="59dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@color/lightPink"
+            android:fontFamily="@font/inter_bold"
+            android:gravity="center|right"
+            android:onClick="goLogin"
+            android:paddingRight="50px"
+            android:stateListAnimator="@null"
+            android:text="Skip"
+            android:textAllCaps="false"
+            android:textColor="@color/mediumGreen" />
+
+    </LinearLayout>
+
+</LinearLayout>

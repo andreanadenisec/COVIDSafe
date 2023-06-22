@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VaccineSputnik"
+    android:background="@drawable/bgvaxx">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtSputnik"
+            android:layout_width="375dp"
+            android:layout_height="77dp"
+            android:paddingLeft="2dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/magazinegrotesque_bold"
+            android:gravity="bottom"
+            android:text="Gamaleya Sputnik V"
+            android:textColor="@color/teal"
+            android:textSize="32sp" />
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:id="@+id/idCal"
+            android:layout_width="match_parent"
+            android:layout_height="570dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_edit"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtInfoTitleSV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/magazinegrotesque_regular"
+                android:text="Information"
+                android:textColor="@color/teal"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtInfoSV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/inter_regular"
+                android:text="Info"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/txtPlatformTitleSV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/magazinegrotesque_regular"
+                android:text="Technology Platform"
+                android:textColor="@color/teal"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtPlatformSV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/inter_regular"
+                android:text="Technology Platform"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/txtDoseTitleSV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/magazinegrotesque_regular"
+                android:text="Dose and Frequency"
+                android:textColor="@color/teal"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtDoseSV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/inter_regular"
+                android:text="Dose and Frequency"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/txtVaxxEfficTitleSV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/magazinegrotesque_regular"
+                android:text="Vaccine Efficacy"
+                android:textColor="@color/teal"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtVaxxEfficSV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/inter_regular"
+                android:text="Vaccine Efficacy"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/txtSideTitleSV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/magazinegrotesque_regular"
+                android:text="Common Side Effects"
+                android:textColor="@color/teal"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtSideSV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/inter_regular"
+                android:text="Common Side Effects"
+                android:textColor="@color/gray" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
