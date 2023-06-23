@@ -1,5 +1,5 @@
 # COVIDSafe
-An android mobile application for our Applications Development and Emerging Technologies 3 (Mobile Programming)
+An android mobile application for our Applications Development and Emerging Technologies 3 (Mobile Programming) class
 
 ## About
 * Allows the user to store information for contact tracing purposes.
